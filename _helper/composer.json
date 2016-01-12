@@ -1,0 +1,12 @@
+{
+    "name": "derhasi/_helper",
+    "require": {
+        "composer/composer": "dev-master"
+    },
+    "authors": [
+        {
+            "name": "Johannes Haseitl",
+            "email": "johannes@undpaul.de"
+        }
+    ]
+}

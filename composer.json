@@ -1,0 +1,15 @@
+{
+    "name": "derhasi/guzzle-test",
+    "description": "A test project to test guzzle dependency failure in composer cli",
+    "require": {
+        "guzzlehttp/guzzle": "~6.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "derhasi\\GuzzleTest\\": "src/"
+        }
+    },
+    "scripts": {
+        "guzzle-test": "derhasi\\GuzzleTest\\Scripts::test"
+    }
+}
